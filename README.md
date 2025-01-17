@@ -27,7 +27,7 @@
 + AES256C
 ### 增加数据写入
 数据库文件：db.json
-ex：
+```shell
 {
   "user": "admin",
   "password": "admin",
@@ -35,4 +35,5 @@ ex：
   "port": "3306",
   "dbname": "alert"
 }
+```
 ### logic.sh 脚本对接收文本进行处理
