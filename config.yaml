@@ -1,0 +1,30 @@
+Listen: '127.0.0.1:162'
+SNMPParameters:
+  - HostRange: 10.10.1.1-10.10.10.1
+    userName: admin
+    AuthenticationProtocol: SHA256
+    AuthenticationPassphrase: admin123
+    PrivacyProtocol: AES
+    PrivacyPassphrase: admin123
+  - host: 10.10.1.1
+    userName: trapadmin
+    AuthenticationProtocol: SHA256
+    AuthenticationPassphrase: trapadmin123
+    PrivacyProtocol: AES
+    PrivacyPassphrase: trapadmin123
+  - host: 10.10.1.2
+    userName: netadmin
+    AuthenticationProtocol: SHA256
+    AuthenticationPassphrase: netadmin123
+    PrivacyProtocol: AES
+    PrivacyPassphrase: netadmin123
+  - host: default
+    userName: defaultadmin
+    AuthenticationProtocol: SHA256
+    AuthenticationPassphrase: defaultadmin123
+    PrivacyProtocol: AES
+    PrivacyPassphrase: defaultadmin123
+v2IP: 127.0.0.1
+v2Port: 9514
+wbIP: 10.10.10.1
+wbPort: 9055

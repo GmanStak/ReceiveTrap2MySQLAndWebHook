@@ -1,0 +1,7 @@
+{
+  "user": "root",
+  "password": "root",
+  "host": "10.10.1.9",
+  "port": "3306",
+  "dbname": "trap"
+}
