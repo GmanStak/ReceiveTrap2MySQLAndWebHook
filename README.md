@@ -29,10 +29,10 @@
 数据库文件：db.json
 ex：
 {
-  "user": "root",
-  "password": "Root@123",
-  "host": "10.111.21.139",
+  "user": "admin",
+  "password": "admin",
+  "host": "10.10.10.1",
   "port": "3306",
-  "dbname": "hcs_alert"
+  "dbname": "alert"
 }
 ### logic.sh 脚本对接收文本进行处理
